@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './hello-world.css';
+import * as ui from './ui';
 
-const HelloWorld = ({ title }) => (
-  <div className={style['hello-world']}>{title}</div>
-);
+const HelloWorld = ({ title }) => <ui.Panel>{title}</ui.Panel>;
 
 HelloWorld.propTypes = {
   title: PropTypes.string,
