@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader/root';
-import HelloWorld from './components/hello-world';
+import MainPage from './components/MainPage';
 
 class App extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   render() {
-    return <HelloWorld title="Sag ich nicht" />;
+    return <MainPage title="Sag ich nicht" />;
   }
 }
 
